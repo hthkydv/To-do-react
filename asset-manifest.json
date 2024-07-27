@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/To-do-react/static/css/main.97c5d138.css",
+    "main.js": "/To-do-react/static/js/main.ea59b6a0.js",
+    "static/js/453.9f3284e3.chunk.js": "/To-do-react/static/js/453.9f3284e3.chunk.js",
+    "static/media/notification.svg?s3g3t9": "/To-do-react/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/logo.svg": "/To-do-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/notification.eot": "/To-do-react/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/To-do-react/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/To-do-react/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/To-do-react/index.html",
+    "main.97c5d138.css.map": "/To-do-react/static/css/main.97c5d138.css.map",
+    "main.ea59b6a0.js.map": "/To-do-react/static/js/main.ea59b6a0.js.map",
+    "453.9f3284e3.chunk.js.map": "/To-do-react/static/js/453.9f3284e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97c5d138.css",
+    "static/js/main.ea59b6a0.js"
+  ]
+}
