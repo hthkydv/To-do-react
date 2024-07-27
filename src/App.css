@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form{
+width: 1170px;
+margin: auto;
+display: flex;
+gap:20px;
+}
+form input{
+  height: 40px;
+  flex-basis: 80%;
+  background: linear-gradient(to right, #f7cac9, #92a8d1); /* Gradient Background */
+    font-family: 'Arial', sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 25px;
+
+}
+form button{
+  flex-basis: 20%;
+  background-color: #2a1712; /* Main button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 15px 30px; /* Padding for the button */
+    font-size: 1em; /* Font size */
+    font-family: 'Arial', sans-serif; /* Font style */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    outline: none; /* Remove outline */
+
+
+}
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+}
+.outerDiv ul{
+
+  margin-top: 50px;
+  list-style: none;
+  padding: 0px;
+}
+.outerDiv li{
+  color: rgb(3, 3, 3);
+  padding: 0px;
+  background: linear-gradient(to right, #c5d0b2, #92a8d1);
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+
+
+}
+.outerDiv ul li span{
+  position: absolute;
+  right:20px;
+  cursor: pointer;
+
+}
+.complete{
+  text-decoration: line-through;
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(140, 0, 255) !important;
+}
+.head{
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: blanchedalmond;
+}
+.App{
+  background: linear-gradient(to right, #567dac, #8c85db); /* Gradient Background */
+  font-family: 'Arial', sans-serif; /* Font style */
+  margin: 0;
+  padding: 0;
+  color: #061f0f;
+}
+.body{
+  background-color: #f0f8ff; /* Light blue background color */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQux1xj8HFG2yatbtLcB0fMbiEHQhQozXB46g&s); /* Background image */
+  background-size: cover; /* Cover the entire page */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Fix the background image */
+}
+.try{
+  text-align: right;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
